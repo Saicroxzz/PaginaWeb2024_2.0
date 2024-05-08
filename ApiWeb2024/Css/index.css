@@ -1,0 +1,111 @@
+/* General */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-container {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.google-btn {
+    background-color: #DB4437;
+    color: #fff;
+}
+
+.facebook-btn {
+    background-color: #4267B2;
+    color: #fff;
+}
+
+.btn,
+.social-login {
+    margin-top: 10px;
+}
+
+.divider {
+    text-align: center;
+    margin: 10px 0;
+    color: #666;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+.signup-text a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
